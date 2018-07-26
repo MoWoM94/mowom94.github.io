@@ -1,0 +1,104 @@
+/*CONTENT - Left displayed banners*/
+
+.leftBanner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.leftBannerTitle {
+    width: 25%;
+    padding: 3px 0px 3px 0px;
+    text-align: justify;
+    background-color: orange;
+}
+
+.leftBannerTitle h2 {
+    padding: 63px 45px 63px 45px;
+    text-align: center;
+    background-color: aqua;
+}
+
+.leftBannerContent {
+    width: 30%;
+    z-index: -999;
+    margin-left: -836px;
+    background-color: powderblue;
+}
+
+.leftBanner:hover .leftBannerContent {
+    -webkit-transition: margin-left 2s;
+    transition: margin-left 2s;
+    margin-left: 0px;
+}
+
+.leftBanner:not(:hover) .leftBannerContent {
+    -webkit-transition: margin-left 2s;
+    transition: margin-left 2s;
+    margin-left: -836px;
+}
+
+.leftBannerContent p {
+    width: auto;
+    padding: 60px 60px 60px 60px;
+    text-align: justify;
+}
+
+.leftBannerImage {
+    padding: 10px 10px 10px 10px;
+    background-color: green;
+}
+
+/*CONTENT Right displayed banners*/
+
+.rightBanner {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.rightBannerTitle {
+    width: 25%;
+    padding: 3px 0px 3px 0px;
+    text-align: justify;
+    background-color: orange;
+}
+
+.rightBannerTitle h2 {
+    padding: 63px 45px 63px 45px;
+    text-align: center;
+    background-color: aqua;
+}
+
+.rightBannerContent {
+    width: 30%;
+    z-index: -999;
+    margin-right: -836px;
+    background-color: powderblue;
+}
+
+.rightBanner:hover .rightBannerContent {
+    -webkit-transition: margin-right 2s;
+    transition: margin-right 2s;
+    margin-right: 0px;
+    width: 40%;
+}
+
+.rightBanner:not(:hover) .rightBannerContent {
+    -webkit-transition: margin-right 2s;
+    transition: margin-right 2s;
+    margin-left: -836px;
+}
+
+.rightBannerContent p {
+    width: auto;
+    padding: 60px 60px 60px 60px;
+    text-align: justify;
+}
+
+.rightBannerImage {
+    padding: 10px 10px 10px 10px;
+    background-color: green;
+}

@@ -1,0 +1,47 @@
+html {
+    width: auto;
+    height: auto;
+}
+
+body{
+    width: auto;
+    height: auto;
+}
+
+/*Header*/
+
+header {
+    text-align: center;
+    background-image: url(images/astronomy-2179083__340.jpg);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin: auto;
+}
+
+/*Navigation*/
+
+nav {
+    padding: 10px 10px;
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav li {
+    padding: 5px 20px 10px 20px;
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: aquamarine;
+}
+
+nav li a {
+    text-decoration: none;
+}
