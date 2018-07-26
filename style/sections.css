@@ -21,32 +21,32 @@
 }
 
 .leftBannerContent {
-    width: 30%;
+    width: 54%;
     z-index: -999;
-    margin-left: -836px;
+    margin-left: -1027.5px;
     background-color: powderblue;
 }
 
 .leftBanner:hover .leftBannerContent {
     -webkit-transition: margin-left 2s;
-    transition: margin-left 2s;
+    transition: margin-left 3s;
     margin-left: 0px;
 }
 
 .leftBanner:not(:hover) .leftBannerContent {
     -webkit-transition: margin-left 2s;
     transition: margin-left 2s;
-    margin-left: -836px;
+    margin-left: -1027.5px;
 }
 
 .leftBannerContent p {
     width: auto;
     padding: 60px 60px 60px 60px;
-    text-align: justify;
+    text-align: center;
 }
 
 .leftBannerImage {
-    padding: 10px 10px 10px 10px;
+    padding: 23px 10px 10px 10px;
     background-color: green;
 }
 
@@ -73,32 +73,31 @@
 }
 
 .rightBannerContent {
-    width: 30%;
+    width: 54.00%;
     z-index: -999;
-    margin-right: -836px;
+    margin-right: -1027.5px;
     background-color: powderblue;
 }
 
 .rightBanner:hover .rightBannerContent {
-    -webkit-transition: margin-right 2s;
-    transition: margin-right 2s;
+    -webkit-transition: 2s;
+    transition: margin 2s;
     margin-right: 0px;
-    width: 40%;
 }
 
 .rightBanner:not(:hover) .rightBannerContent {
-    -webkit-transition: margin-right 2s;
-    transition: margin-right 2s;
-    margin-left: -836px;
+    -webkit-transition: 2s;
+    transition: margin 2s;
+    margin-left: -1027.5px;
 }
 
 .rightBannerContent p {
     width: auto;
     padding: 60px 60px 60px 60px;
-    text-align: justify;
+    text-align: center;
 }
 
 .rightBannerImage {
-    padding: 10px 10px 10px 10px;
+    padding: 23px 10px 10px 10px;
     background-color: green;
 }
