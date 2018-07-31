@@ -5,17 +5,19 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style/common.css" />
     <link rel="stylesheet" href="style/sections.css" />
+    <link rel="stylesheet" href="style/reset.css" />
     <title>CHORA</title>
 </head>
 
 <body>
     <header>
-        <navbar>
+        <navbar id="navigation">
             <nav>
                 <li><a href="tests.html">Pas l'accueil</a></li>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="sections.html">Sections</a></li>
                 <li><a href="constitution.html">Constitution</a></li>
+                 <li><a href="lore.html"></a>Lore</a></li>
                 <li><a href="minigames.html">Mini-Games</a></li>
                 <li><a href="recruitment.html">Recrutement</a></li>
             </nav>
@@ -23,6 +25,7 @@
     </header>
 
     <section id="banners">
+
         <!-- Left Displayed Banner - CDC -->
 
         <div class="leftBanner">
@@ -32,7 +35,7 @@
             <div class="leftBannerTitle">
                 <h2>CDC - Corps diplomatique Chorien</h2>
             </div>
-            <div class="leftBannerContent cdc">
+            <div class="leftBannerDescription cdc">
                 <p>Le Corps Diplomatique Chorien (CDC) a pour tâche l’établissement et l’entretien des relations de la République
                     Chorienne, la mise en place d’accords, la résolution pacifique de conflits, etc. Ils sont les représentants
                     officiels de la Chora. Le Corps Diplomatique fait aussi office de service de presse et de renseignement
@@ -45,13 +48,15 @@
         <!-- Right Displayed Banner - CAC -->
 
         <div class="rightBanner">
-            <div class="rightBannerImage  cac">
+            <div class="rightBannerImage" id="cac">
+                <div class "vertical">
                 <img src="assets/images/Airforce.png" alt="CAC">
+                </div>
             </div>
             <div class="rightBannerTitle">
                 <h2>CAC - Corps des armées chorienne</h2>
             </div>
-            <div class="rightBannerContent">
+            <div class="rightBannerDescription">
                 <p>La Chora étant une nation à but commerciale, le Corps des Armées Choriennes existe afin de garantir la sécurité
                     de tout chorien et d’assurer le bon déroulement de nos activités. Garantissant ainsi par la même occasion
                     et volontairement la sécurité de nos partenaires commerciaux/diplomatiques/etc.
@@ -68,7 +73,7 @@
             <div class="leftBannerTitle">
                 <h2>RTC -Réseau de Transport et de Commerce </h2>
             </div>
-            <div class="leftBannerContent rtc">
+            <div class="leftBannerDescription rtc">
                 <p>Le Réseau de Transport et de Commerce (RTC) constitue le centre névralgique de l’économie chorienne. Ses
                     missions consistent au transport de personnes, de biens et de matériaux. Ainsi, ce service a également
                     pour tâche l’acheminement des denrées vendues par la Chora, tout autant que celles que nous achetons.
@@ -85,7 +90,7 @@
             <div class="rightBannerTitle">
                 <h2>DEMP - Division d'Exploitation des Matières Premières</h2>
             </div>
-            <div class="rightBannerContent demp">
+            <div class="rightBannerDescription demp">
                 <p>Le Département d’Exploitation des Matières Premières (DEMP) regroupe les différents métiers en rapport avec
                     l’extraction et le raffinage des matières premières ainsi que de la production de biens à partir de ces
                     ressources. Il tient donc une place très importante dans le bon fonctionnement économique de la nation.
@@ -102,7 +107,7 @@
             <div class="leftBannerTitle">
                 <h2>DIM & R - Département d'Ingénieurie Mécanique et Racing</h2>
             </div>
-            <div class="leftBannerContent dimr">
+            <div class="leftBannerDescription dimr">
                 <p>Le Département d’Ingénierie Mécanique et du Racing (DIM & R) s’occupe de réparer les vaisseaux, de les entretenir,
                     de recycler ce qui peut l’être et ainsi produire certains biens. De plus, puisqu’il regroupe mécaniciens,
                     ingénieurs et ouvriers, cette section est tout naturellement aussi celle des pilotes de courses. Le DIM
@@ -121,7 +126,7 @@
             <div class="rightBannerTitle">
                 <h2>DS:E - Division des Sciences: Pôle Exploration</h2>
             </div>
-            <div class="rightBannerContent dse">
+            <div class="rightBannerDescription dse">
                 <p>La Division des Sciences – Pôle Exploration (DS-E), parcourt l’espace afin de cartographier l’univers et
                     ses astres, sonder ses ressources, répertorier la faune et la flore des planètes. Service nécessaire
                     donc dans la prospection des ressources, la recherche de territoires inoccupés, d’artefacts, de technologies
@@ -139,7 +144,7 @@
             <div class="leftBannerTitle">
                 <h2>DS:R - Division des Sciences: Pôle Recherche</h2>
             </div>
-            <div class="leftBannerContent dsr">
+            <div class="leftBannerDescription dsr">
                 <p>La Division des Sciences – Pôle Recherche (DS-R) est la section de recherche de la Chora. Les scientifiques
                     de ce département travaillent en étroite collaboration avec ceux du pôle Exploration. La différence est
                     qu’au sein du pôle Recherche les scientifiques ont les moyens techniques et financiers de pousser leurs
@@ -157,7 +162,7 @@
             <div class="rightBannerTitle">
                 <h2>SMH - Services Médicaux et Hospitalier</h2>
             </div>
-            <div class="rightBannerContent smh">
+            <div class="rightBannerDescription smh">
                 <p>Les Services Médicaux et Hospitalier (SMH) sont constitués des divers métiers composant le corps médicale.
                     Ceux-ci offrent leur expertise médicale à tout chorien le nécessitant, mais aussi à toute personne extérieure
                     désireuse de subir des soins.
