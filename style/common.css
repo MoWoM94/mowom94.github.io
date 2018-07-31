@@ -24,9 +24,9 @@ h1 {
 }
 
 #navigation nav li {
-    width: 5%;
-    height: 48%;
-    padding: 7.5px 15px 7.5px 15px;
+    min-width: 5%;
+    min-height: 48%;
+    padding: 0.3%;
     border: 2px solid red;
     border-radius: 5px;
     background-color: aquamarine;
